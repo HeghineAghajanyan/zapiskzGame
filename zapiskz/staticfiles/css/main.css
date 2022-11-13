@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: montserrat, sans-serif;
+  box-sizing: border-box;
+}
+
+.button-container {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  appearance: none;
+  background: none;
+  border: none;
+  outline: none;
+
+  padding: 20px 40px;
+  border-radius: 8px;
+  color: #212121;
+  font-size: 28px;
+  font-weight: 600;
+  margin: 0 15px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.button-1 {
+  color: #FFCE00;
+  border: 3px solid #FFCE00;
+}
+
+.button-1:hover {
+  color: #FFF;
+  background-color: #FFCE00;
+}
+
